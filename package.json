@@ -7,5 +7,25 @@
   },
   "devDependencies": {
     "@prisma/client": "^6.19.0"
-  }
+  },
+  "name": "taller_individual",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JhostynD/taller_individual.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JhostynD/taller_individual/issues"
+  },
+  "homepage": "https://github.com/JhostynD/taller_individual#readme"
 }
