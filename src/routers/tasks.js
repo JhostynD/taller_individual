@@ -10,12 +10,12 @@ import {
 
 const router = Router();
 
-// Rutas para
-router.post('/tasks', createTask);
-router.get('/tasks', getTasks);
-router.get('/tasks/:id', getTaskById);
-router.get('/tasks/user/:userId', getTasksByUser);
-router.put('/tasks/:id', updateTask);
-router.delete('/tasks/:id', deleteTask);
+// Rutas para tareas
+router.post('/', createTask);
+router.get('/', getTasks);
+router.get('/:id', getTaskById);
+router.get('/user/:userId', getTasksByUser);
+router.put('/:id', updateTask);
+router.delete('/:id', deleteTask);
 
 export default router;
