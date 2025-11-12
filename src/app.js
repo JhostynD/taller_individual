@@ -1,5 +1,6 @@
 import express from "express";
-import animal from "./routers/animal.js"; 
+import animal from "./routers/User.js";
+import registro from "./controller/taks.Controller.js"
 
 const app = express();
 const PORT = 3000;
@@ -9,6 +10,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 app.use("/animal", animal); 
+app.use("/registro", registro)
 
 app.listen(PORT, () => {
     console.log(`http://localhost:${PORT}`);
